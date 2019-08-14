@@ -1,3 +1,3 @@
-document.querySelector("body").addEventListener("click", function() {
+document.addEventListener("click", function() {
   alert("Click!");
 });
