@@ -52,14 +52,20 @@ header span {
 
 /* SITE CARDS */
 
+.site-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .card {
   align-items: center;
   background-color: #555;
   display: flex;
-  height: 20vw;
+  height: 17vw;
   justify-content: center;
   opacity: 0.6;
-  width: 40vw;
+  width: 30vw;
 }
 
 .card:hover {
@@ -68,8 +74,8 @@ header span {
 }
 
 .info {
-  font-size: 1.7vw;
-  width: 40%;
+  font-size: 1.4vw;
+  width: 50%;
 }
 
 .info p {
@@ -87,7 +93,7 @@ header span {
 }
 
 .thumbnail {
-  width: 40%;
+  width: 35%;
 }
 
 .thumbnail img {
