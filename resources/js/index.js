@@ -1,3 +1,1 @@
-document.addEventListener("click", function() {
-  alert("Click!");
-});
+/* PORTFOLIO LANDING PAGE */
