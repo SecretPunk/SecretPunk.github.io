@@ -30,7 +30,7 @@ header span {
   font-size: 10vw;
   font-weight: bold;
   justify-content: center;
-  padding: 10vw 0;
+  padding: 8vw 0;
 }
 
 .headshot {
@@ -48,4 +48,48 @@ header span {
 .name {
   display: flex;
   flex-direction: column;
+}
+
+/* SITE CARDS */
+
+.card {
+  align-items: center;
+  background-color: #555;
+  display: flex;
+  height: 20vw;
+  justify-content: center;
+  opacity: 0.6;
+  width: 40vw;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.info {
+  font-size: 1.7vw;
+  width: 40%;
+}
+
+.info p {
+  padding: 5px 0;
+}
+
+.site-name {
+  color: #fff;
+  font-weight: bold;
+}
+
+.site-tech {
+  color: #000;
+  font-weight: bold;
+}
+
+.thumbnail {
+  width: 40%;
+}
+
+.thumbnail img {
+  width: 100%;
 }
