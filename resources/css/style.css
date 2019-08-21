@@ -53,16 +53,17 @@ header span {
 /* SITE CARDS */
 
 .site-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
 }
 
 .card {
   align-items: center;
   background-color: #555;
   display: flex;
-  height: 17vw;
+  height: 20vw;
   justify-content: center;
   opacity: 0.6;
   width: 30vw;
@@ -74,7 +75,8 @@ header span {
 }
 
 .info {
-  font-size: 1.4vw;
+  font-size: 1.6vw;
+  padding-right: 10px;
   width: 50%;
 }
 
@@ -98,4 +100,38 @@ header span {
 
 .thumbnail img {
   width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 950px) {
+
+  .site-cards {
+    grid-template-columns: auto auto;
+  }
+
+  .card {
+    height: 25vw;
+    width: 45vw;
+  }
+
+  .info {
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .site-cards {
+    grid-template-columns: auto;
+  }
+
+  .card {
+    height: 40vw;
+    width: 80vw;
+  }
+
+  .info {
+    font-size: 3.8vw;
+  }
 }
