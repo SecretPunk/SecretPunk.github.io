@@ -134,6 +134,10 @@ footer {
 
 @media only screen and (max-width: 950px) {
 
+  header {
+    font-size: 1.2rem;
+  }
+
   #site-cards {
     grid-template-columns: auto auto;
   }
@@ -146,9 +150,17 @@ footer {
   .info {
     font-size: 2.2vw;
   }
+
+  footer {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 650px) {
+
+  header {
+    font-size: 1rem;
+  }
 
   #site-cards {
     grid-template-columns: auto;
@@ -161,5 +173,9 @@ footer {
 
   .info {
     font-size: 3.8vw;
+  }
+
+  footer {
+    font-size: 0.9rem;
   }
 }
